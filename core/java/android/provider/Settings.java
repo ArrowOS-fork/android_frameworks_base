@@ -11000,6 +11000,13 @@ public final class Settings {
                 "launcher_taskbar_education_showing";
 
         /**
+         *  Toggle the wallpaper zoom effects
+         *  0 = 0ff, 1 = on
+         * @hide
+         */
+        public static final String DISPLAY_SETTINGS_WALLPAPER_ZOOM = "display_settings_wallpaper_zoom";
+
+        /**
          * Control whether FLAG_SECURE is ignored for all windows.
          * @hide
          */
